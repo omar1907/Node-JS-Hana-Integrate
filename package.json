@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-hana-01",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sap/hana-client": "^2.22.32",
+    "@sap/xsenv": "^5.4.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "sequelize": "^6.37.5"
+  },
+  "description": "",
+  "devDependencies": {
+    "sequelize-cli": "^6.6.2"
+  }
+}
